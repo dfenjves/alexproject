@@ -1,0 +1,100 @@
+/* CSS files add styling rules to your content */
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Stylish');
+@import url('https://fonts.googleapis.com/css?family=Bilbo&display=swap');
+
+body {
+  font-family: 'Stylish', sans-serif;
+  text-align: left;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color: rgb(8, 99, 52);
+  margin: 10px;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Stylish', sans-serif;
+  color: #b2ac7e;
+  text-align: center;
+}
+
+h5 {
+  font-family: 'Bilbo', cursive;
+  color: #b2ac7e;
+  text-align: center;
+}
+
+.nav-wrapper {
+  display: flex;
+  background-color: #b76363;
+  justify-content: center;
+  vertical-align: middle;
+  padding: 0.25em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  min-height: 4em;
+}
+
+.center-writing {
+  font-family: 'Dancing Script', cursive;
+  color: rgb(0,0,0);
+  font-size: 35px;
+  text-shadow: 2px 1px red;
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+}
+
+.dragon {
+  width:75px;
+  height:100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.hidden {
+  display: none;
+}
+
+.card .card-image .card-title {
+  color: rgb(255, 200, 255);
+  height: 30%;
+
+}
+
+.cardHolder{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-title {
+  background-color: rgba(188, 11, 11,0.4);
+}
+
+.card-content {
+  font-size: 1.2em;
+  font-weight: 200;
+  line-height: 35px;
+  letter-spacing: 1px;
+}
+
+footer {
+  margin-top: 75;
+  font-weight: 100;
+}
+
+.page-footer {
+  background-color: #b76363;
+}
